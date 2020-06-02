@@ -26,7 +26,7 @@ skel.breakpoints({
   function addNames() {
     let fileDisplayArea = document.getElementById("names");
   
-    readTextFile("https://menolaklupa.now.sh/nama.txt", function(text) {
+    readTextFile("https://menolaklupa.org/nama.txt", function(text) {
       let textArray = text.split(".");
   
       textArray.forEach(function(txtItem, i) {
